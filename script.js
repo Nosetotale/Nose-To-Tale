@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 3,
-    name_et: "Kuivatatud kalkunikõri",
+    name_et: "Kuivatatud Kalkunikõri",
     name_en: "Dried Turkey Neck",
     price: 6.5
   }
@@ -91,5 +91,6 @@ function toggleLanguage() {
 renderProducts();
 updateCart();
 toggleLanguage();
+
 
 
