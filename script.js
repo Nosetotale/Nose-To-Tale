@@ -1,20 +1,20 @@
 const products = [
   {
     id: 1,
-    name_et: "Kuivatatud kanakõri",
-    name_en: "Chicken treat",
+    name_et: "Kuivatatud Kanakõri",
+    name_en: "Dried Chicken Throat",
     price: 5
   },
   {
     id: 2,
-    name_et: "Kuivatatud veisesüda",
-    name_en: "Lamb treat",
+    name_et: "Kuivatatud Veisesüda",
+    name_en: "Dried Beef Heart",
     price: 5
   },
   {
     id: 3,
     name_et: "Kuivatatud kalkunikõri",
-    name_en: "Beef ears",
+    name_en: "Dried Turkey Neck",
     price: 6.5
   }
 ];
@@ -91,4 +91,5 @@ function toggleLanguage() {
 renderProducts();
 updateCart();
 toggleLanguage();
+
 
