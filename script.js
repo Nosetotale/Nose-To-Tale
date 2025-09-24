@@ -1,21 +1,21 @@
 const products = [
   {
     id: 1,
-    name_et: "Kana maius",
+    name_et: "Kuivatatud kanakõri",
     name_en: "Chicken treat",
-    price: 3.5
+    price: 5
   },
   {
     id: 2,
-    name_et: "Lamba maius",
+    name_et: "Kuivatatud veisesüda",
     name_en: "Lamb treat",
-    price: 4
+    price: 5
   },
   {
     id: 3,
-    name_et: "Veise kõrvad",
+    name_et: "Kuivatatud kalkunikõri",
     name_en: "Beef ears",
-    price: 2.5
+    price: 6.5
   }
 ];
 
@@ -91,3 +91,4 @@ function toggleLanguage() {
 renderProducts();
 updateCart();
 toggleLanguage();
+
