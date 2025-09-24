@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nose To Tail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nose To Tail</h1>
+    <nav>
+      <button id="lang-toggle">English</button>
+      <a href="#" id="cart-link">🛒 <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="product-list">
+      <!-- Products will be rendered here -->
+    </section>
+
+    <section id="cart" class="hidden">
+      <h2 class="et">Ostukorv</h2>
+      <h2 class="en hidden">Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p class="et">Kokku: <span id="total">0</span> €</p>
+      <p class="en hidden">Total: <span id="total-en">0</span> €</p>
+      <button onclick="clearCart()" class="et">Tühjenda</button>
+      <button onclick="clearCart()" class="en hidden">Clear</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nose To Tail</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
